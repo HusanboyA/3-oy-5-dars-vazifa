@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 93px;
+    align-items: center;
+
+}
+
+.header__logo a{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.13px;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+.header__title{
+    width: 564px;
+    display: flex;    align-items: center;
+
+    justify-content: space-between; 
+}
+.header__title a{
+    font-family: Nunito Sans;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24.51px;
+    text-align: left;     
+}
+.header__title--activ{
+    font-weight: 700;
+}
+.header__title button{
+    width: Hug (146px)px;
+    height: Hug (55px)px;
+    padding: 15px 25px 15px 25px;
+    gap: 10px;
+    border-radius: 20px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: left;
+         
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    width: 494px;
+    height: 152px;
+    font-family: Nunito Sans;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 78px;
+    text-align: left;
+     
+}
+p{
+    width: 287px;
+    height: 78px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 78px;
+    text-align: left;
+     
+}
+.section__left--button{
+    display: flex;
+    gap: 50px;
+}
+.btn{
+    width: Hug (146px)px;
+    height: Hug (55px)px;
+    padding: 15px 25px 15px 25px;
+    gap: 10px;
+    border-radius: 20px;
+    font-family: Open Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: left;
+}
+.btn1{
+    background-color: #fff;
+    color: #000;
+}
+.btn2{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+.section__right{
+    width: Hug (146px)px;
+    height: Hug (55px)px;
+    padding: 15px 25px 15px 25px;
+    gap: 10px;
+    border-radius: 20px;
+     
+}
+.arrow img{
+    margin-left: 720px;
+    height: 44px;
+    top: 902px;
+    left: 720px;
+
+}
+.arrow p{
+    margin-left: 685px;
+    position: relative;
+    top: -20px;
+}
